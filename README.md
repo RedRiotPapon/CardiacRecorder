@@ -5,24 +5,33 @@ It's important to get an accurate blood pressure history so that you have a clea
 
 See the [Wiki](https://github.com/RedRiotPapon/CardiacRecorder/wiki) for documentation, implementation details and history.
 
+
+## Features
+This app will let users to:
+* Get a list of measurements
+* Add a new measurement (which always appends to the bottom end of the list)
+* VDelete a measurement
+* See unusual blood pressures highlighted or flagged.
+
+
 ## User Interface
 
-# Spash Screeen
+### Spash Screeen
 ![Untitled_Page_1](https://user-images.githubusercontent.com/80849169/177014124-dbf29d6c-ccb8-486b-8a3a-e844a131a3fd.jpg)
 
-# Sign IN
+### Sign IN
 ![signuin](https://user-images.githubusercontent.com/80849169/177014161-dfabe256-ad81-4894-a155-db647ac7f98c.png)
 
-# Home Page
+### Home Page
 ![home](https://user-images.githubusercontent.com/80849169/177014139-fd1d4a1e-f694-405e-8e68-285f3747ebc5.png)
 
-# Measurements
+### Measurements
 ![measurements](https://user-images.githubusercontent.com/80849169/177014174-e5a68dd8-066d-4d6d-81ea-d5275f91a341.png)
 
-# Health Record
+### Health Record
 ![records](https://user-images.githubusercontent.com/80849169/177014252-d460cab8-d87d-44e8-a07e-9f9104dbf070.png)
 
-# Statistics
+### Statistics
 ![Untitled 7](https://user-images.githubusercontent.com/80849169/177014194-b6cf4981-8dfc-4c17-9f9f-16ed93c9fed9.png)
 
 
