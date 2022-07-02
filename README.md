@@ -26,4 +26,6 @@ See the [Wiki](https://github.com/RedRiotPapon/CardiacRecorder/wiki) for documen
 ![Untitled 7](https://user-images.githubusercontent.com/80849169/177014194-b6cf4981-8dfc-4c17-9f9f-16ed93c9fed9.png)
 
 
-
+## Contributors
+1. [Argho Deb Das'1807066](https://github.com/MrArgho)
+2. [Md Hefzul Hossain Papon '1807089](https://github.com/RedRiotPapon)
