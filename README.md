@@ -5,6 +5,15 @@ It's important to get an accurate blood pressure history so that you have a clea
 
 See the [Wiki](https://github.com/RedRiotPapon/CardiacRecorder/wiki) for documentation, implementation details and history.
 
+
+## Features
+This app will let users to:
+* Get a list of measurements
+* Add a new measurement (which always appends to the bottom end of the list)
+* VDelete a measurement
+* See unusual blood pressures highlighted or flagged.
+
+
 ## User Interface
 
 # Spash Screeen
