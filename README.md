@@ -20,6 +20,7 @@ See the [Wiki](https://github.com/RedRiotPapon/CardiacRecorder/wiki) for documen
 ![measurements](https://user-images.githubusercontent.com/80849169/177014174-e5a68dd8-066d-4d6d-81ea-d5275f91a341.png)
 
 # Health Record
+![records](https://user-images.githubusercontent.com/80849169/177014252-d460cab8-d87d-44e8-a07e-9f9104dbf070.png)
 
 # Statistics
 ![Untitled 7](https://user-images.githubusercontent.com/80849169/177014194-b6cf4981-8dfc-4c17-9f9f-16ed93c9fed9.png)
