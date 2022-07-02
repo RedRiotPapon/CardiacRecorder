@@ -20,23 +20,33 @@ This app will let users to:
 
 ## User Interface
 
-### Spash Screeen
-![Untitled_Page_1](https://user-images.githubusercontent.com/80849169/177014124-dbf29d6c-ccb8-486b-8a3a-e844a131a3fd.jpg)
 
-### Sign IN
-![signuin](https://user-images.githubusercontent.com/80849169/177014161-dfabe256-ad81-4894-a155-db647ac7f98c.png)
+# Spash Screeen
+![WhatsApp Image 2022-07-03 at 12 12 53 AM (5)](https://user-images.githubusercontent.com/80849169/177015048-19fe6894-212e-43c1-a37e-6ebbef17ec30.jpeg)
 
-### Home Page
-![home](https://user-images.githubusercontent.com/80849169/177014139-fd1d4a1e-f694-405e-8e68-285f3747ebc5.png)
 
-### Measurements
-![measurements](https://user-images.githubusercontent.com/80849169/177014174-e5a68dd8-066d-4d6d-81ea-d5275f91a341.png)
+# Sign IN
+![WhatsApp Image 2022-07-03 at 12 12 53 AM (6)](https://user-images.githubusercontent.com/80849169/177015138-75a87e8d-afb5-468a-b787-07004da8da5d.jpeg)
 
-### Health Record
-![records](https://user-images.githubusercontent.com/80849169/177014252-d460cab8-d87d-44e8-a07e-9f9104dbf070.png)
 
-### Statistics
-![Untitled 7](https://user-images.githubusercontent.com/80849169/177014194-b6cf4981-8dfc-4c17-9f9f-16ed93c9fed9.png)
+# Home Page
+![WhatsApp Image 2022-07-03 at 12 12 53 AM](https://user-images.githubusercontent.com/80849169/177015149-ae57d6c1-28e3-4a8d-8d10-6f5128d90067.jpeg)
+
+
+# Measurements
+![WhatsApp Image 2022-07-03 at 12 12 53 AM (1)](https://user-images.githubusercontent.com/80849169/177015157-024743f2-504c-4307-af2e-60c5a8867c24.jpeg)
+
+
+
+# Health Record
+![WhatsApp Image 2022-07-03 at 12 12 53 AM (2)](https://user-images.githubusercontent.com/80849169/177015187-2971fd92-d66f-4151-87d1-d2c2595180e8.jpeg)
+
+
+
+# Statistics
+![WhatsApp Image 2022-07-03 at 12 12 53 AM (4)](https://user-images.githubusercontent.com/80849169/177015167-601a82e9-412c-41f1-912b-24ed80183e1f.jpeg)
+
+
 
 
 ## Contributors
