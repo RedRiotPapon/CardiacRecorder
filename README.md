@@ -14,6 +14,10 @@ This app will let users to:
 * See unusual blood pressures highlighted or flagged.
 
 
+## UML Diagram
+![WhatsApp Image 2022-07-03 at 2 00 54 AM](https://user-images.githubusercontent.com/103327602/177014734-f3e5df7d-c1b4-44ba-988e-c0412a30b23d.jpeg)
+
+
 ## User Interface
 
 ### Spash Screeen
