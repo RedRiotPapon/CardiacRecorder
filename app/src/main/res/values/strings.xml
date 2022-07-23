@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CardiacRecorder</string>
+    <string name="measurement_history">Measurement History</string>
+</resources>
