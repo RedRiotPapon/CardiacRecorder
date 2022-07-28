@@ -33,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Measurement> MeasurementList=new ArrayList<>();
 
     @Override
+    /**
+     * here by clicking on an item of a list
+     * we will jump into condition details page
+     * where we can update or delete our measurement form list
+     */
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -61,6 +66,10 @@ public class MainActivity extends AppCompatActivity {
         });
         add_measurement.setOnClickListener(new View.OnClickListener() {
             @Override
+            /**
+             * by clicking we will jump into a page
+             * where we can Add Measurement
+             */
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,AddMeasurement.class);
                 startActivity(intent);

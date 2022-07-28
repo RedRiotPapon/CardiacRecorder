@@ -8,6 +8,9 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ProgressBar;
 
+/**
+ * splash screen
+ */
 public class SplashScreen extends AppCompatActivity {
 
     private ProgressBar progressBar;
