@@ -29,6 +29,9 @@ public class AddMeasurement extends AppCompatActivity {
         reference= FirebaseDatabase.getInstance().getReference().child("Measurement");
         button_save.setOnClickListener(new View.OnClickListener() {
             @Override
+            /**
+             * by clicking it page will go on main activity
+             */
             public void onClick(View v) {
                 insertMeasurement();
                 Intent intent=new Intent(AddMeasurement.this,MainActivity.class);
@@ -38,6 +41,10 @@ public class AddMeasurement extends AppCompatActivity {
 
         });
     }
+    /**
+     * insert Measurement data
+     * date,time,systolic&diastolic pressure,heart rate
+     */
     private void insertMeasurement()
     {
         String date,time,comt;
