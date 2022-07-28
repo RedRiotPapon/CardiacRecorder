@@ -95,5 +95,8 @@ public class Measurement implements Serializable {
                 ", comment='" + comment + '\'' +
                 '}';
     }
+    public int compareTo(Measurement measurement) {
+        return this.time.compareTo(measurement.getTime());
+    }
 
 }
