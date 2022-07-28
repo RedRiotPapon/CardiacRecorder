@@ -2,6 +2,7 @@ package com.example.cardiac_recorder;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,7 +38,16 @@ public class showList extends RecyclerView.Adapter<showList.ViewHolder> {
         holder.time.setText(MeasurementList.get(position).getTime());
         holder.syspr.setText(Integer.toString(MeasurementList.get(position).getSystolicPressure()));
         holder.diaspr.setText(Integer.toString(MeasurementList.get(position).getDiastolicPressure()));
+        if((MeasurementList.get(position).getDiastolicPressure()<60) || (MeasurementList.get(position).getDiastolicPressure()>90) )
+        {
 
+            holder.diaspr.setTextColor(Color.RED);
+        }
+        if((MeasurementList.get(position).getSystolicPressure()<90) ||(MeasurementList.get(position).getSystolicPressure()>140))
+        {
+            holder.syspr.setTextColor(Color.RED);
+
+        }
         holder.parent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
