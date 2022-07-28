@@ -26,6 +26,9 @@ public class showList extends RecyclerView.Adapter<showList.ViewHolder> {
 
     @NonNull
     @Override
+    /**
+     * creating viewHolder
+     */
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.showlist,parent,false);
         ViewHolder holder=new ViewHolder(view);
@@ -33,6 +36,10 @@ public class showList extends RecyclerView.Adapter<showList.ViewHolder> {
     }
 
     @Override
+    /**
+     * if any high or low blood pressure
+     * there will be red sign
+     */
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.date.setText(MeasurementList.get(position).getDate());
         holder.time.setText(MeasurementList.get(position).getTime());
@@ -59,6 +66,9 @@ public class showList extends RecyclerView.Adapter<showList.ViewHolder> {
     }
 
     @Override
+    /**
+     * count item on list view
+     */
     public int getItemCount() {
         return MeasurementList.size();
     }
@@ -68,6 +78,9 @@ public class showList extends RecyclerView.Adapter<showList.ViewHolder> {
         notifyDataSetChanged();
     }
 
+    /**
+     * recycler view
+     */
     public class ViewHolder extends RecyclerView.ViewHolder{
         private TextView date;
         private TextView time;
@@ -75,6 +88,10 @@ public class showList extends RecyclerView.Adapter<showList.ViewHolder> {
         private TextView diaspr;
         private ConstraintLayout parent;
 
+        /**
+         * item added in recycler view
+         * @param itemView
+         */
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             date=itemView.findViewById(R.id.date);

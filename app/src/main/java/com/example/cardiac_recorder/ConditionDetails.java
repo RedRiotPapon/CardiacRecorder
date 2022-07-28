@@ -21,6 +21,9 @@ public class ConditionDetails extends AppCompatActivity {
     private DatabaseReference reference;
     String key;
     @Override
+    /**
+     * here we can edit our measurment
+     */
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_condition_details);
@@ -66,6 +69,10 @@ public class ConditionDetails extends AppCompatActivity {
         });
         button_delete.setOnClickListener(new View.OnClickListener() {
             @Override
+            /**
+             * by clicking this measurement will be deleted
+             * and we will be returned to main activity
+             */
             public void onClick(View v) {
                 reference.child(key).removeValue();
                 Intent newintent=new Intent(ConditionDetails.this,MainActivity.class);
@@ -74,6 +81,10 @@ public class ConditionDetails extends AppCompatActivity {
         });
         button_edit.setOnClickListener(new View.OnClickListener() {
             @Override
+            /**
+             * by clicking our editing will be updated
+             * and we will be returned to main activity
+             */
             public void onClick(View v) {
                 //reference.child(key).removeValue();
                 String cdate,ctime,ccomt;

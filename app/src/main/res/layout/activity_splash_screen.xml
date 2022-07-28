@@ -67,6 +67,7 @@
 
         android:progressBackgroundTint="#FFFFFF"
         android:progressTint="#87CEEB"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/tras"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
